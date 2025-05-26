@@ -1,0 +1,162 @@
+.main-container-experience {
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(../../midia/fundos/fundo-exp.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    padding: 10px 0;
+}
+
+.span-experiencias {
+    height: 25px;
+    color: black;
+    text-align: center;
+    font-family: 'Josefin sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #8ed9ff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.top {
+    font-size: 30px;
+}
+
+.experience-content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencias {
+    background-color: #8ed9ff;
+    width: 600px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.L {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.R {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-experiencias {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.paragrafo-experiencias {
+    font-family: 'Josefin sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    height: 130px;
+    width: 400px;
+    margin-top: 0;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.img-experiencias-mobile {
+    display: none;
+}
+
+h3 {
+    margin-bottom: 6px;
+} 
+
+@media(max-width:850px) {
+    .main-container-experience {
+        padding: 20px 0;
+    }
+
+    .experience-content {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:750px) {
+
+    .main-container-experience {
+        display: flex;
+        height: 100%;
+    }
+
+    .experience-content {
+        width: 100%;
+    }
+
+    .experiencias {
+        height: 400px;
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .L {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .R {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-experiencias-mobile {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        border: 2px solid black;
+     
+    }
+
+    .paragrafo-experiencias {
+        width: 280px;
+        height: 100%;
+    }
+
+    .span-experiencias {
+        width: 285px;
+        font-size: 16px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .top {
+        font-size: 25px;
+    }
+}
+
